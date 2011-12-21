@@ -53,7 +53,7 @@ function Source_View_Changesets( $p_changesets, $p_repos=null, $p_show_repos=tru
 		if ( $t_url = $t_vcs->url_changeset( $t_repo, $t_changeset ) ) {
 			print_bracket_link( $t_url, plugin_lang_get( 'diff', 'Source' ) );
 		}
-		?>
+		?></span>
 </td>
 <td colspan="3"><?php echo string_display_links( $t_changeset->message ) ?></td>
 </tr>
